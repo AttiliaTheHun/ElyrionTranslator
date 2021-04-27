@@ -4,9 +4,9 @@ Elyrion translator is a tool that translates your text into Elyrion text.
 There are currently two version: Android and Desktop. Desktop version is in Java, which makes it more or less cross-platform.
 ## Features
 ### Android
-- translate between alhpabets: English (latin) x Elyrion
+- translate between alphabets: English (latin) x Elyrion
 ### Desktop
-- translate between alhpabets: English (latin) x Elyrion
+- translate between alphabets: English (latin) x Elyrion
 - translate known words in the Elyrion language
 ## How does it work
 ### Transliteration (alphabet translation)
