@@ -7,7 +7,7 @@ There are currently two version: Android and Desktop. Desktop version is in Java
 - translate between alphabets: English (latin) x Elyrion
 ### Desktop
 - translate between alphabets: English (latin) x Elyrion
-- translate known words in the Elyrion language
+- TODO: translate known words in the Elyrion language
 ## How does it work
 ### Transliteration (alphabet translation)
 Elyrion alphabet is publicly available on [Polytopia discord server](https://discord.gg/polytopia), so the translator just replaces the letter with it's equivalent in the second alphabet
