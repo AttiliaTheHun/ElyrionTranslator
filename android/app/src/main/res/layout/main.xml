@@ -1,0 +1,180 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear4"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#2196F3"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/input_textfield"
+				android:layout_width="wrap_content"
+				android:layout_height="50dp"
+				android:padding="8dp"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				android:hint="Enter text in you language"
+				android:textColorHint="#BDBDBD"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/delete"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:src="@drawable/ic_delete_black"
+				android:scaleType="center" />
+		</LinearLayout>
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:text="Translate text"
+			android:textSize="12sp"
+			android:textColor="#BDBDBD" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="8dp"
+			android:paddingTop="2dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="4dp"
+			android:orientation="horizontal">
+			<Switch
+				android:id="@+id/switch1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingTop="8dp"
+				android:paddingBottom="8dp"
+				android:text="Not Elyrion"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingTop="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="8dp"
+				android:text="∑∫ỹriȱŋ"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<Button
+				android:id="@+id/copy"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Copy"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1" />
+			<Button
+				android:id="@+id/translateb"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Translate"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="horizontal">
+			<EditText
+				android:id="@+id/output_textfield"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:padding="8dp"
+				android:textSize="12sp"
+				android:textColor="#000000"
+				android:hint="To know your enemy, you must become your enemy."
+				android:textColorHint="#BDBDBD"
+				android:imeOptions="actionNone" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:padding="8dp"
+			android:background="#E91E63"
+			android:orientation="vertical"
+			android:layout_gravity="right">
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dp"
+				android:paddingTop="8dp"
+				android:paddingRight="8dp"
+				android:paddingBottom="2dp"
+				android:text="Options"
+				android:textSize="12sp"
+				android:textColor="#BDBDBD" />
+			<CheckBox
+				android:id="@+id/ignorebox"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Ignore invalid characters"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<CheckBox
+				android:id="@+id/onlyvalid"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Exclude invalids characters"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<CheckBox
+				android:id="@+id/playelimusic"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="Play ∑∫ỹriȱŋ music"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<CheckBox
+				android:id="@+id/elyrionmode"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="∑∫ỹriȱŋ mode"
+				android:textSize="12sp"
+				android:textColor="#FFFFFF" />
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="vertical"
+				android:layout_weight="1" />
+			<LinearLayout
+				android:id="@+id/hidden_linear"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
