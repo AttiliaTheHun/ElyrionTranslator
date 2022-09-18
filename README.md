@@ -1,7 +1,7 @@
 # ElyrionTranslator
 Elyrion translator is a tool that translates your text into Elyrion text.
 ## Versions
-There are currently two version: Android and Desktop. Desktop version is in Java, which makes it more or less cross-platform. The Android version was made in Sketchware;
+There are currently two version: Android and Desktop. Desktop version is in Java, which makes it more or less cross-platform. The Android version was made in Sketchware.
 ## Features
 ### Android
 - translate between alphabets: English (latin) x Elyrion
